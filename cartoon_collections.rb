@@ -1,6 +1,6 @@
 def greet_characters(array)
  index = 0
-  array.each_with_index {|name, index| puts "#{index + 1}.  Hello  #{name}! "}
+  array.each_with_index {|name, index| puts "#{index + 1}.  Hello #{name}! "}
 end
 
 
