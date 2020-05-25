@@ -2,7 +2,7 @@ def greet_characters(array)
  index = 0
   array.each_with_index {|name, index| puts "#{index + 1}.  Hello ! #{name} "}
 end
-puts "Hello Dopey !"
+ "Hello Dopey !"
 
 
 def list_dwarves(array)
